@@ -6,7 +6,7 @@
 [URL](https://github.com/AyahZaareer/server-deployment-practice/actions)
 
 ## Heroku Link:
-[URL](https://ayah-server-deploy-prod.herokuapp.com)
+[URL](https://ayah-basic-express-server.herokuapp.com)
 
 ## Pull Request:
 [URL](https://github.com/AyahZaareer/server-deployment-practice/pull/1)
