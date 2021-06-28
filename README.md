@@ -18,9 +18,11 @@
 
 ## Handles Erorr:
 ##### Endpoint:
--(/):Hello mesage
--(/bad):"Something went wrong"
--otherwise:"Not Found"
+- (/):Hello mesage
+- (/bad):"Something went wrong"
+- otherwise:"Not Found"
+- (/person?name:any name):"any name"
+
 
 
 ## Test:
