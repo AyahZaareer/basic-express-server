@@ -1,0 +1,25 @@
+'use strict';
+const loggerMiddelware = require('../src/middleware/logger');
+
+xdescribe('logger middelware', () => {
+    let consolSpy;
+    const req = {};
+    const res = {};
+    const next = jest.fn();
+
+    beforeEach(() => {
+
+        consolSpy = jest.spyOn(console, 'log').mockImplementation();
+    });
+    afterEach(() => {
+        consolSpy.mockRestore();
+    });
+    it('logs output correctly', () => {
+        loggerMiddelware(req, res, next);
+        expect(consolSpy).toHaveBeenCalled();
+    });
+    it('moves to the next middleware', () => {
+        loggerMiddelware(req, res, next);
+        expect(next).toHaveBeenCalledWith();
+    })
+})
