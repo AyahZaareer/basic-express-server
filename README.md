@@ -3,7 +3,7 @@
 
 
 ## Test CI:
-[URL](https://github.com/AyahZaareer/server-deployment-practice/actions)
+[URL](https://github.com/AyahZaareer/basic-express-server/actions)
 
 ## Heroku Link:
 [URL](https://ayah-basic-express-server.herokuapp.com)
