@@ -9,7 +9,7 @@
 [URL](https://ayah-basic-express-server.herokuapp.com)
 
 ## Pull Request:
-[URL](https://github.com/AyahZaareer/server-deployment-practice/pull/1)
+[URL](https://github.com/AyahZaareer/basic-express-server/pull/1)
 
 ## Setup:
 1.clone the repo.
